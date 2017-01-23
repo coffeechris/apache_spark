@@ -57,7 +57,7 @@ default['apache_spark']['standalone']['worker_cores'] = nil
 default['apache_spark']['standalone']['worker_work_dir'] = '/var/spark-standalone-worker'
 
 # Total memory a worker will report as available, MBs.
-default['apache_spark']['standalone']['worker_memory_mb'] = 4096
+default['apache_spark']['standalone']['worker_memory_mb'] = 1024
 
 # Default amount of memory allocated for a Sparky application per executor.
 default['apache_spark']['standalone']['default_executor_mem_mb'] = 256
